@@ -498,7 +498,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-}
+ }
 
 .image {
   background-size: cover;
@@ -522,11 +522,20 @@
   background-image: url(../images/packaged5.png);
 }
 
+.flex-view{
+  display: flex;
+    justify-content: center;
+}
+
 .projects{
     grid-column: span 3; 
     background-color: teal; 
     padding: 20px;
+    text-align: center;
+    width: inherit;
 }
+
+
 
 .projects p{
   font-size: 12px;
