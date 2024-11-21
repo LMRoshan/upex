@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info{
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    align-content: center;
+    gap: 10PX;
+    padding: 7px 7px 7px 7px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+
+.top-icons{
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+    position: absolute;
+    right: 8px;
+}
+
+.top-icons i{
+    margin-right: auto;
+}
+
+.separator {
+    width: 1px;
+    background-color: black; 
+  }
+
+  .top-a a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .upex{
+    color: teal;
+  }
+
+  .main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .btnn button{
+    background-color: teal;
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+  }
+
+  .content ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .content ul li a{
+    color: black;
+    font-weight: 440;
+    cursor: pointer;
+  }
+
+  .banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/vanpng.png);
+    background-size: cover;
+  }
+
+  .contact-main{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .contact{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .icon i{
+    font-size: 29px;
+    margin-top: 5px;
+  }
+
+  .detail{
+    font-size: 11px;
+    line-height: 1px;
+  }
+
+  .middle{
+    text-align: center;
+    color: white;
+    padding: 70px;
+  }
+
+  .btn-first{
+    display: flex;
+    justify-content: center;
+  }
+  .middle .btn:first-of-type{
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .middle .btn{
+    background-color: white;
+    padding: 10px;
+    color: black;
+  }
+
+  .main-feature{
+    text-align: center;
+    padding: 25px;
+  }
+
+  .main-feature h3{
+    color: teal;
+  }
+
+  .feature{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .feature i{
+    font-size: 28px;
+    color: teal;
+    margin: 20px 5px;
+  }
+
+  .services{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .services p:first-child{
+    color: teal;
+    font-weight: 600px;
+  }
+
+  .services h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .card-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .card{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+
+  .card .icon, .card h6{
+    color: teal;
+    font-size: 20px;
+    margin-top: 3px;
+  }
+
+  .card button{
+    padding: 5px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: teal;
+    color: white;
+  }
+
+  .all-services{
+    display: flex;
+    justify-content: center;
+  }
+  .all-services button{
+    margin: 20px;
+    background-color: teal;
+    padding: 15px;
+    border: none;
+    color: white;
+  }
+
+  .about{
+    padding: 4dvb;
+    background-color: lightgray;
+  }
+
+  .about h6:first-child{
+    color: teal;
+  }
+
+  .extra-feature{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .extra-icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  .extra-icons i{
+    font-size: 20px;
+    color: teal;
+  }
+
+  .extra-last{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .read-btn .btn{
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    border-radius: 2px;
+    border-style: none;
+  }
+
+  .experience h2{
+    color: teal;
+  }
+
+  .experience h2 span{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: -10px;
+    margin-bottom: -20px;
+  }
+
+  .experience p{
+    margin-top: -15px;
+    font-size: 13px;
+    color: black;
+    line-height: 1.5;
+  }
+
+  .about img:first-of-type{
+    height: 50vh;
+    width: 30vw;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .form-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/truck.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+
+  .inputs{
+    padding: 30px;
+  }
+
+  .inputs h4{
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  form{
+    background-color: white;
+    padding: 15px;
+    margin-top: -10px;
+  }
+
+  .form-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-group i {
+  position: absolute;
+  right: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #aaa;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 5px;
+    border: none;
+    font-size: 16px;
+} 
+
+.form-last{
+  position: relative;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+} 
+
+.form-last input{
+  padding: 3px;
+  width: 100%;
+}
+
+.selection{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.selection select{
+  padding: 5px;
+  border-radius: 3px;
+  width: 12em;
+}
+
+.moving-date{
+  position: absolute;
+  right: 5px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+} 
+
+.btn button{
+  background-color: teal;
+  margin: 10px;
+  padding: 9px;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.reviews{
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+.reviews p{
+  color: teal;
+}
+
+.cards{
+  display: flex;
+  gap: 20px;
+}
+
+.review{
+  background-color: teal;
+  padding: 15px;
+  margin: 10px;
+  text-align: left;
+}
+
+.reviews .review:nth-child(2){
+  background-color: black;
+}
+
+.review p, .review h6{
+  color: white;
+}
+
+.review img{
+  width: 100px;
+  object-fit: cover;
+  margin: 10px 0 ;
+}
+
+.questions{
+  position: relative;
+  background-color: teal;
+  padding: 20px;
+  color: white;
+}
+
+.main-qna{
+  display: flex;
+  gap: 10px;
+}
+
+.qna p{
+  font-size: 14px;
+}
+
+
+.contact .btn{
+  position: absolute;
+  right: 50px;
+  top: 40px;
+  background-color: black;
+  padding: 13px;
+  color: white;
+}
+
+.footer{
+  padding: 30px;
+  margin-right: 10px;
+}
+
+.footer h4{
+  color: teal;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.footer img{
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.footer p:first-of-type{
+  margin-bottom: 15px;
+}
+
+.footer ul li {
+  list-style-type: none;
+}
+
+.footer ul li a{
+  color: black;
+  margin-bottom: 4px;
+}
+
+.footer-call, .footer-user, .footer-location{
+  display: flex;
+  gap: 10px;
+}
+
+.footer-call i, .footer-user i, .footer-location i{
+  font-size: 17px;
+  color: teal;
+  margin-top: 5px;
+}
+
+.footer iframe{
+  margin-right: 10px;
+}
+
+.copyright p{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.copyright span{
+  color: teal;
+  font-weight: 700;
+}
+
+.explore{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.img1{
+  background-image: url(../images/packaged1.png);
+}
+.img2{
+  background-image: url(../images/packaged2.png);
+}
+.img3{
+  background-image: url(../images/packaged3.png);
+}
+.img4{
+  background-image: url(../images/packaged4.png);
+}
+.img5{
+  background-image: url(../images/packaged5.png);
+}
+
+.projects{
+    grid-column: span 3; 
+    background-color: teal; 
+    padding: 20px;
+}
+
+.projects p{
+  font-size: 12px;
+  overflow: hidden;
+  margin-bottom: 5px !important;
+}
+
+.projects h4{
+  color: white;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.projects button{
+  background-color: teal;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+}
